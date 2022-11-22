@@ -11,7 +11,7 @@ stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Ha
 #9. Reverse the positions of the stops in the list
 #10 Print out all the stops using a for loop
 
-stops.append("edinburgh Waverley")
+stops.append("Edinburgh Waverley")
 stops.insert("Glasgow Queen St", 0)
 stops.insert("Polmont", 3)
 print(stops.index("Linlithgow"))
