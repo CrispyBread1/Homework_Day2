@@ -26,5 +26,8 @@ for country_name in united_kingdom:
 # 4. Use a loop to find the total population of the UK.
 total_pop = 0
 for pop in united_kingdom:
-  total_pop += pop
+  current = pop["population"]
+  total_pop += current
+
 print(total_pop)
+
